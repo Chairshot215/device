@@ -32,6 +32,12 @@ PRODUCT_PACKAGES += \
 #    libOmxVenc \
 #    libOmxVdec
 
+#Apps
+PRODUCT_COPY_FILES += \
+    device/motorola/triumph/app/Camera.apk:system/app/Camera.apk \
+    device/motorola/triumph/app/com.google.android.music-1.apk:system/app/com.google.android.music-1.apk
+
+
 # Camera
 PRODUCT_PACKAGES += \
     camera.msm7x30
