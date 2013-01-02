@@ -58,6 +58,7 @@ wimax.interface=wm0
 lpa.decode=false
 ro.hdmi.enable=true
 
+ro.emmc=1
 ro.use_data_netmgrd=true
 ro.config.ehrpd=true
 keyguard.no_require_sim=true
